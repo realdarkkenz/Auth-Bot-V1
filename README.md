@@ -1,74 +1,66 @@
+# Coded By: Carlos Server: .gg/j4jfast #100K
+
 # Oauth2 Discord Bot 🛡️
 
-O Oauth2 Discord Bot é uma aplicação desenvolvida em Node.js que oferece funcionalidades relacionadas à autenticação Oauth2 e interação com servidores Discord. Ele permite que os usuários autentiquem suas contas Discord em um servidor específico e fornece recursos de gerenciamento de usuários e verificação de pontos.
+The OAuth2 Discord Bot is an application developed in Node.js that offers functionality related to OAuth2 authentication and interaction with Discord servers. It allows users to authenticate their Discord accounts on a specific server and provides user management and point verification capabilities.
 
-![Discord Bot](https://i.imgur.com/QjFHH27.png)
+![Discord Bot https://i.imgur.com/QjFHH27.png)
 
-## Funcionalidades Principais 🚀
+## Main Features 🚀
 
-- **Autenticação Oauth2:** O bot facilita o processo de autenticação Oauth2 para usuários, permitindo que autentiquem suas contas Discord em um servidor específico.
-- **Verificação de Usuários:** Oferece funcionalidades para verificar usuários autenticados, armazenar suas informações e atribuir cargos ou privilégios com base em sua autenticação.
-- **Resgate Automático de Itens:** O bot permite resgatar automaticamente itens para usuários autenticados, simplificando o processo de interação durante transmissões ao vivo.
+- **OAuth2 authentication:** the bot facilitates the Oauth2 authentication process for users by allowing them to authenticate their Discord accounts to a specific server.
+- **User verification: * * provides functionality to verify authenticated users, store their information, and assign roles or privileges based on their authentication.
+- **Automatic item redemption: * * the bot allows you to automatically redeem items for authenticated users, simplifying the interaction process during live broadcasts.
 
-## Pré-requisitos 📋
+## Prerequisites 📋
 
-Antes de usar o Oauth2 Discord Bot, certifique-se de ter instalado:
+Before using OAuth2 Discord Bot, make sure you have installed:
 
 - Node.js
 - npm (Node Package Manager)
-- Conta no Discord
-- Servidor Discord para hospedar o bot
-- Configurações de aplicativo e permissões de bot no Discord Developer Portal
+- Discord account
+- Discord server to host the bot
+- App Settings and bot permissions in Discord Developer Portal
 
-## Instalação e Uso 🛠️
+## Installation and use 🛠️
 
-1. Clone o repositório para o seu ambiente local:
+1. Install project dependencies:
 
-```sh
-git clone https://github.com/Lucaszmv/Oauth2DiscordBot.git
-```
-
-2. Instale as dependências do projeto:
-
-```sh
+"'sh
 npm install
 ```
 
-3. Configure o arquivo ```configs.js``` com suas credenciais e informações específicas do servidor Discord.
+2. Configure the file "' configs.js` ' with your credentials and Discord server specific information.
 
-4. Execute o bot:
+3. Run the bot:
 
-```sh
+"'sh
 node index.js
 ```
 
-5. Siga as instruções no console para configurar e usar o Oauth2 Discord Bot.
+5. Follow the instructions in the console to set up and use the OAuth2 Discord Bot.
 
-## Funcionamento Detalhado ⚙️
+## Detailed Operation ⚙️
 
-O bot consiste em uma série de comandos e interações definidos nos arquivos ```commands``` e ```events```. Aqui está uma visão geral dos comandos principais:
+The bot consists of a series of commands and interactions defined in the `commands` and `events`files. Here is an overview of the main commands:
 
-- ```/join```: Adiciona a quantidade escolhida de usuários ao servidor.
-- ```/help```: Exibe uma lista de comandos disponíveis para os usuários.
-- ```/links```: Fornece links úteis relacionados ao bot e à autenticação Oauth2.
-- ```/mensagem```: Envie uma mensagem formatada com um botão de verificação para os usuários.
-- ```/ping```: Mostra o ping do bot.
-- ```/users```: Exibe quantos usuários estão armazenados no banco de dados do bot.
-- ```/verify```: Verifica todos os usuários armazenados no banco de dados, permitindo a adição de usuários válidos.
+- ``/join"': adds The Chosen amount of users to the server.
+- ``/help"': displays a list of commands available to users.
+- ``/links"': provides useful links related to bot and OAuth2 authentication.
+- ``/message"': send a formatted message with a check button to users.
+- "'/ping"': shows the ping of the bot.
+- ``/users"': displays how many users are stored in the bot database.
+- ``/verify"': verifies all users stored in the database, allowing the addition of valid users.
 
-## Configuração Personalizada ⚙️
+## Custom Setting ⚙️
 
-Antes de executar o bot, é necessário configurar alguns parâmetros no arquivo ```configs.js```:
+Before running the bot, you need to configure some parameters in the "' configs file.js``:
 
-- ```token```: Token de autenticação do bot no Discord.
-- ```client_id```, ```client_secret```, ```redirect_uri```: Credenciais para autenticação Oauth2.
-- ```idserver```, ```idrole```: IDs do servidor Discord e do cargo a ser atribuído aos usuários verificados.
-- ```webhook```, ```webhookBackup```: URLs dos webhooks para enviar informações do usuário e backup do arquivo ```object.json```.
+- "'token"': bot authentication Token on Discord.
+- "'client_id``, ``client_secret``, "'redirect_uri"': credentials for OAuth2 authentication.
+- "'idserver``, "'idrole"': Discord server and post IDs to be assigned to verified users.
+- "'webhook``,`` webhookBackup``: URLs of the webhooks to send user information and backup the file "' object.json`'.
 
-## Licença 📄
+## License 📄
 
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais detalhes.
-
-## Aviso Legal 📄
-
-Este projeto é fornecido apenas para fins educacionais e de demonstração. Não nos responsabilizamos pelo uso indevido do bot ou por quaisquer danos decorrentes de seu uso. Certifique-se de cumprir os termos de serviço do Discord e de outras plataformas envolvidas.
+This project is licensed under the MIT License. See the LICENSE file for more details.
