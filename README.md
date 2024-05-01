@@ -1,4 +1,4 @@
-# Coded By: Carlos | Server: .gg/j4jfast #100K
+# Coded By: DARK KENZ
 
 # Oauth2 Discord Bot 🛡️
 
